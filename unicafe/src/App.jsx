@@ -6,7 +6,14 @@ const Statistics = (props) => {
   } else {
     return (
       <div>
-        {props.name}: {props.value}
+        <table>
+          <tbody>
+            <tr>
+              <td>{props.name}</td>
+              <td>{props.value}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     );
   }
